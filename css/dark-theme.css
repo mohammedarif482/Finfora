@@ -1,0 +1,366 @@
+/* Enhanced Dark Theme for Finfora */
+
+/* Dark Mode Class for Body */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Main containers */
+body.dark-mode .container-xxl.bg-white {
+    background-color: #121212 !important;
+}
+
+/* Navbar styling */
+body.dark-mode .navbar {
+    background-color: #1a1a1a !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+body.dark-mode .navbar-light .navbar-nav .nav-link {
+    color: #e0e0e0 !important;
+}
+
+body.dark-mode .navbar-light .navbar-nav .nav-link:hover {
+    color: #3498db !important;
+}
+
+body.dark-mode .navbar-light .navbar-nav .nav-link.active {
+    color: #3498db !important;
+}
+
+body.dark-mode .navbar-light .navbar-brand h1 {
+    color: #e0e0e0;
+}
+
+/* Dropdown styling */
+body.dark-mode .dropdown-menu {
+    background-color: #1e1e1e;
+    border-color: #333;
+}
+
+body.dark-mode .dropdown-item {
+    color: #e0e0e0;
+}
+
+body.dark-mode .dropdown-item:hover {
+    background-color: #2c2c2c;
+    color: #3498db;
+}
+
+/* Hero section - Keep primary color but darker shade */
+body.dark-mode .container-xxl.bg-primary.hero-header {
+    background-color: #162b45 !important; /* Darker blue */
+}
+
+/* About section */
+body.dark-mode .wow.fadeInUp h2,
+body.dark-mode .mb-4 {
+    color: #e0e0e0;
+}
+
+body.dark-mode p {
+    color: #cccccc;
+}
+
+/* Service items with hover effects */
+body.dark-mode .service-item {
+    background-color: #1e1e1e !important;
+    color: #e0e0e0;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+body.dark-mode .service-item:hover {
+    background-color: #262626 !important;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .service-item h5 {
+    color: #e0e0e0;
+}
+
+body.dark-mode .service-icon {
+    color: #3498db;
+}
+
+body.dark-mode .service-btn {
+    color: #3498db;
+}
+
+/* Primary sections */
+body.dark-mode .bg-primary {
+    background-color: #162b45 !important;
+}
+
+/* Features section */
+body.dark-mode .flex-shrink-0.btn-square.bg-primary {
+    background-color: #1e3a5a !important;
+}
+
+body.dark-mode .d-flex.align-items-center h6 {
+    color: #e0e0e0;
+}
+
+/* Team section */
+body.dark-mode .team-item {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    transition: transform 0.3s;
+}
+
+body.dark-mode .team-item:hover {
+    transform: translateY(-5px);
+}
+
+body.dark-mode .team-item h5 {
+    color: #e0e0e0;
+}
+
+/* Testimonial items */
+body.dark-mode .testimonial-item {
+    background-color: #1e1e1e !important;
+}
+
+body.dark-mode .testimonial-item h6 {
+    color: #e0e0e0;
+}
+
+/* Footer - Keep dark */
+body.dark-mode .bg-dark {
+    background-color: #0a0a0a !important;
+}
+
+/* Buttons with hover effects */
+body.dark-mode .btn-primary {
+    background-color: #1e3a5a;
+    border-color: #1e3a5a;
+    transition: all 0.3s;
+}
+
+body.dark-mode .btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(41, 128, 185, 0.4);
+}
+
+body.dark-mode .btn-light {
+    background-color: #2c2c2c;
+    border-color: #2c2c2c;
+    color: #3498db !important;
+}
+
+body.dark-mode .btn-light:hover {
+    background-color: #3c3c3c;
+    border-color: #3c3c3c;
+}
+
+body.dark-mode .btn-outline-light {
+    color: #e0e0e0;
+    border-color: #e0e0e0;
+}
+
+body.dark-mode .btn-outline-light:hover {
+    background-color: #e0e0e0;
+    color: #121212;
+}
+
+/* Border styling */
+body.dark-mode .border.rounded-pill {
+    border-color: #3498db !important;
+}
+
+/* Form inputs */
+body.dark-mode .form-control {
+    background-color: #2c2c2c;
+    color: #e0e0e0;
+    border-color: #444;
+}
+
+body.dark-mode .form-control::placeholder {
+    color: #999;
+}
+
+body.dark-mode .form-control:focus {
+    background-color: #333;
+    border-color: #3498db;
+    box-shadow: 0 0 0 0.25rem rgba(52, 152, 219, 0.25);
+}
+
+/* Back to top button */
+body.dark-mode .back-to-top {
+    background-color: #1e3a5a;
+    border-color: #1e3a5a;
+}
+
+body.dark-mode .back-to-top:hover {
+    background-color: #2980b9;
+}
+
+/* Loading spinner */
+body.dark-mode #spinner.bg-white {
+    background-color: #121212 !important;
+}
+
+body.dark-mode .spinner-border.text-primary {
+    color: #3498db !important;
+}
+
+/* Theme Toggle button styling */
+.theme-toggle {
+    cursor: pointer;
+    position: relative;
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #121212;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+}
+
+body.dark-mode .theme-toggle {
+    background-color: #3498db;
+}
+
+.toggle-circle {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #fff;
+    left: 4px;
+    transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body.dark-mode .toggle-circle {
+    transform: translateX(30px);
+}
+
+.sun-icon, .moon-icon {
+    position: absolute;
+    transition: opacity 0.3s ease;
+}
+
+.sun-icon {
+    color: #ffd43b;
+    opacity: 1;
+    font-size: 12px;
+    right: 8px;
+}
+
+.moon-icon {
+    color: #aaa;
+    opacity: 1;
+    font-size: 12px;
+    left: 8px;
+}
+
+body.dark-mode .sun-icon {
+    opacity: 0;
+}
+
+body.dark-mode .moon-icon {
+    opacity: 0;
+}
+
+/* Visual Improvements */
+
+/* Card hover effects */
+.service-item, .team-item, .testimonial-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item:hover, .team-item:hover, .testimonial-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+body.dark-mode .service-item:hover, 
+body.dark-mode .team-item:hover, 
+body.dark-mode .testimonial-item:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Gradient accents */
+.bg-primary {
+    background: linear-gradient(135deg, #1e3a5a 0%, #2980b9 100%) !important;
+}
+
+body.dark-mode .bg-primary {
+    background: linear-gradient(135deg, #162b45 0%, #1e3a5a 100%) !important;
+}
+
+/* Improved typography */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700 !important;
+}
+
+.service-item h5, .team-item h5 {
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.service-item h5:after, .team-item h5:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background-color: #3498db;
+}
+
+/* Button animations */
+.btn {
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    transition: all 0.4s ease;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
+
+.btn:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: rgba(255, 255, 255, 0.1);
+    z-index: -1;
+    transition: all 0.3s ease;
+}
+
+.btn:hover:after {
+    height: 100%;
+}
+
+/* Section dividers */
+.py-6 {
+    position: relative;
+}
+
+.py-6:not(:last-child):after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 3px;
+    background: linear-gradient(to right, transparent, #3498db, transparent);
+}
+
+body.dark-mode .py-6:not(:last-child):after {
+    background: linear-gradient(to right, transparent, #162b45, transparent);
+}
