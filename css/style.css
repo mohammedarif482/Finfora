@@ -441,19 +441,3 @@
     }
 }
 
-/* For extra large screens like 27" Macs */
-@media (min-width: 1600px) {
-    .container-xxl {
-        max-width: 98vw !important;
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-}
-
-/* For ultra-wide screens */
-@media (min-width: 1920px) {
-    .container-xxl {
-        max-width: 1800px !important;
-        margin: 0 auto;
-    }
-}
